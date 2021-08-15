@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Sponge Talk</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <img
+        class="welcom-img"
+        src="http://images5.fanpop.com/image/photos/31500000/Rainbow-Gang-Fish-spongebob-squarepants-31570220-450-298.gif"
+      />
+      <h1 class="welcome-header__title">Welcome to Sponge Talk</h1>
+      <p class="welcome-header__text">
+        IF you have a Sponge Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        class="login-input"
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        class="login-input"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <img src="img/sponge-1.PNG" />
+      <span>이런! 머리가 너무 커서 어항이 머리에 안들어가잖아!</span>
+      <span>머리크기를 500px로 줄여주면 내가 어항을 씌어줄게~!</span>
+      <span>Please turn the screen down to 500px.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5f1953908f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
